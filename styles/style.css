@@ -180,6 +180,55 @@
   font-weight: normal;
 }
 
+.freyman{
+  margin-top: 100px;
+  position: relative;
+}
+
+.freyman__title{
+  margin: 0 auto;
+  text-align: center;
+  width: 648px;
+  display: flex;
+  justify-content: center;
+  height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+}
+
+.freyman__subtitle{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 51px;
+}
+
+.freyman__subtitle_freyman-block{
+  margin-top: 70px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.freyman__link{
+  position: absolute;
+  bottom: 50%;
+  right: 48px;
+  text-decoration: none;
+  color: #2f80ed;
+  height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.background-image{
+  height: 637px;
+  width: 867px;
+  position: relative;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
