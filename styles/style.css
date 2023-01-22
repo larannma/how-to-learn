@@ -13,13 +13,171 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
   /* выше установили ограничения для секции */
+}
+
+.logo_place_header{
+  position: absolute;
+  width: 228px;
+  height: 32px;
+  top: 30px;
+  left: 64px;
+  z-index: 3;
+}
+
+.header__title{
+  width: 730px;
+  min-height: 192px;
+  font-size: 102px;
+  margin: 0;
+  z-index: 6;
+  font-weight: 600;
+}
+
+.header__title_place_header{
+  margin-left: 64px;;
+}
+
+.header__subtitle{
+  margin: 0;
+  position: absolute;
+  width: 388px;
+  height: 75px;
+  font-size: 18px;
+  bottom: 30px;
+  left: 64px;
+  z-index: 5;
+  font-weight: normal;
+}
+
+.header__link{
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__main-illustrator{
+  height: 608px;
+  width: 765px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  top: 64px;
+  right: 0px;
+}
+
+.content{
+
+}
+
+.description{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.description__two-columns{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns__brief{
+  min-height: 1.2;
+  width: 175px;
+  font-size: 18px;
+  color: #2f80ed;
+  font-weight: normal;
+  margin: 0;
+}
+
+.two-colomns__main-text{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.two-columns__paragraph{
+  min-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.two-columns__span-accent{
+  font-weight: 600;
+}
+
+.two-columns__paragraph_place_description{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.digits{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-title{
+
+}
+
+.section-title_digits{
+  margin: 0;
+  min-height: 1.15px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.section-subtitle{
+  margin: 20px 0 0 0;
+  min-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.table{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+.table__cell{
+
+}
+
+.table__cell_digits{
+  width: 250px;
+  margin-top: 60px;
+}
+
+.table__heading{
+  height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.table__text{
+  margin-top: 20px;
+  height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 /* и элемента с модификатором вида ключ-значение */
