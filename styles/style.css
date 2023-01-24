@@ -63,10 +63,11 @@
   color: #2f80ed;
 }
 
-.header__main-illustrator{
+.header__main-illustration{
   height: 608px;
   width: 765px;
   position: absolute;
+  object-fit: cover;
   bottom: 0px;
   right: 0px;
   z-index: 1;
