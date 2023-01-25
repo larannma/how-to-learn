@@ -109,7 +109,6 @@
   display: flex;
   flex-direction: column;
   width: 80%;
-  justify-content: space-between;
   row-gap: 30px;
 }
 
@@ -290,15 +289,12 @@
   color: white;
 }
 
-.footer__column{
-  flex-basis: 711px;
-  display: flex;
-  color: white;
-}
-
 .footer__column_content_copyright{
   flex-direction: column;
   justify-content: space-between;
+  flex-basis: 711px;
+  display: flex;
+  color: white;
 }
 
 .footer__author{
