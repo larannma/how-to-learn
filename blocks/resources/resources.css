@@ -1,7 +1,6 @@
-.digits{
-    margin-top: 100px;
-    margin-bottom: 100px;
+.resources{
+    margin: 100px auto 217px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
+}
